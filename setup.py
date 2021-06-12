@@ -9,13 +9,13 @@ with open('.version', 'r') as f:
     version = f.read().split('=')[1]
 
 setup(
-    name='pytest-skipslow',
-    description='A Pytest plugin to ignore slow tests by default',
+    name='pytest-explicit',
+    description='A Pytest plugin to ignore certain marked tests by default',
     author='Natalia Maximo',
     author_email='iam@natalia.dev',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/taliamax/pytest-skipslow',
+    url='https://github.com/taliamax/pytest-explicit',
     license='MIT License',
     packages=find_packages('src'),
     extras_require={
@@ -31,7 +31,7 @@ setup(
     keywords=['pytest', 'plugin'],
     entry_points={
         'pytest11': [
-            'pytest_skipslow = pytest_skipslow',
+            'pytest_explicit = pytest_explicit',
         ],
     },
     classifiers=[
