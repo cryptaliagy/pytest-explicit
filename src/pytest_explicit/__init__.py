@@ -24,6 +24,12 @@ def pytest_load_initial_conftests(early_config: Config, parser: Parser):
         'explicitly run marker tests'
     )
 
+    group.addoption(
+        '--run-all',
+        action='store_true',
+        help='Runs all tests that would otherwise require a --run-<marker> flag'
+    )
+
     for marker in explicit_markers:
         group.addoption(
             f'--run-{marker}',
@@ -33,6 +39,9 @@ def pytest_load_initial_conftests(early_config: Config, parser: Parser):
 
 
 def pytest_collection_modifyitems(config: Config, items: List[Item]):
+    if config.getoption('--run-all'):
+        return
+
     markers = config.getini('explicit-only')
     for marker in markers:
         mark_skipped(marker, config, items)
