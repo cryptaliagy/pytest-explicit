@@ -27,7 +27,7 @@ jobs:
 
   release:
     needs: version-check
-    if: ${{ needs.version-check.outputs.run_deploy == 'yes' && github.ref == 'refs/heads/master' }}
+    if: ${{ needs.version-check.outputs.run_deploy == 'yes' && github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     name: Releasing package
     env:
