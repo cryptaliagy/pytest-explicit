@@ -1,4 +1,11 @@
 # pytest-explicit
+[![pypi version](https://img.shields.io/pypi/v/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
+[![python versions](https://img.shields.io/pypi/pyversions/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
+[![package state](https://img.shields.io/pypi/status/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
+[![pypi release](https://img.shields.io/github/workflow/status/taliamax/pytest-explicit/release)](https://github.com/taliamax/pytest-explicit/actions/workflows/release.yaml)
+[![pypi downloads](https://img.shields.io/pypi/dm/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
+[![license](https://img.shields.io/pypi/l/pytest-explicit)](https://github.com/taliamax/pytest-explicit/blob/main/LICENSE)
+
 
 ## Some tests you just don't want to run
 
