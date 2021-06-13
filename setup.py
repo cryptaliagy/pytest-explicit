@@ -5,8 +5,8 @@ from setuptools import setup, find_packages
 with open('README.md', 'r') as f:
     long_description = f.read()
 
-with open('.version', 'r') as f:
-    version = f.read().split('=')[1]
+with open('VERSION', 'r') as f:
+    version = f.read()
 
 setup(
     name='pytest-explicit',
