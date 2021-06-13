@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.0.0 (2021-06-13)
+
+### Changes
+
+* Updated classifiers and added shields. [Natalia Maximo]
+
+
 ## 0.1.1 (2021-06-13)
 
 ### New
