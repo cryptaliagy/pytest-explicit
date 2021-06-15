@@ -76,7 +76,7 @@ jobs:
           message: '!gitchangelog'
 
       - name: Generate version changelog for release
-        run: gitchangelog $previous_tag..HEAD | sed "s/## (unreleased)/Krait v$(cat VERSION) ($(date +"%Y-%m-%d"))/" > version_changelog.md
+        run: gitchangelog $previous_tag..HEAD | sed "s/## (unreleased)/Pytest-Explicit v$(cat VERSION) ($(date +"%Y-%m-%d"))/" > version_changelog.md
 
       - name:  Create Github release & upload files
         env:

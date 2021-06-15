@@ -1,4 +1,4 @@
-# pytest-explicit
+# Pytest-Explicit
 [![pypi version](https://img.shields.io/pypi/v/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
 [![python versions](https://img.shields.io/pypi/pyversions/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
 [![package state](https://img.shields.io/pypi/status/pytest-explicit)](https://pypi.org/project/pytest-explicit/)
