@@ -1,6 +1,13 @@
 # Changelog
 
 
+## 1.0.1 (2021-06-15)
+
+### Changes
+
+* Fix release name. [Natalia Maximo]
+
+
 ## 1.0.0 (2021-06-13)
 
 ### Changes
