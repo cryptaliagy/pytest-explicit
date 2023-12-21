@@ -1,6 +1,17 @@
 # Changelog
 
 
+## 1.0.2 (2023-12-21)
+
+### Other
+
+* Merge pull request #1 from cryptaliagy/natalia/updates. [Natalia Maximo]
+
+  update python supported versions
+
+* Update python supported versions. [Natalia Maximo]
+
+
 ## 1.0.1 (2021-06-15)
 
 ### Changes
